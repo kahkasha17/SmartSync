@@ -4,6 +4,8 @@
 @tailwind utilities;
 
 
+
+
 @media (max-width: 450px) {
     .hide-on-small {
       display: none;
