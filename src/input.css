@@ -8,4 +8,11 @@
     .hide-on-small {
       display: none;
     }
+
+    
+  }
+  @media (max-width: 820px) {
+    .center-buttons {
+      justify-content: center !important; /* Ensures buttons are centered */
+    }
   }
