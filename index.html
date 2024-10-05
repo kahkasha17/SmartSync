@@ -426,55 +426,72 @@
 
     <!-- Contact Us Starts Here -->
 
-    <section class="dark:bg-gray-900" id="ContactUsSection">
+    <section class="" id="ContactUsSection">
       <div
-        class="py-8 px-4   flex flex-col lg:flex-row items-center lg:items-start  lg:text-left"
+        class="py-8 px-4 mx-auto  flex flex-col lg:flex-row items-center lg:items-start  lg:text-left"
       >
         <div class="w-full">
           <div
-            class="w-full bg-black-700  rounded-lg shadow dark:bg-gray-800 "
+            class="w-full bg-gray-600 border border-gray-200 rounded-lg shadow "
           >
             <h1
-              class="mb-4 text-3xl  font-extrabold tracking-tight leading-none text-white-900 md:text-3xl lg:text-3xl dark:text-white p-4"
+              class="mb-4 text-3xl  font-extrabold tracking-tight leading-none  md:text-3xl lg:text-3xl text-white p-4"
             >
-              Get in Touch with Us
+              Let Connect to Us..
             </h1>
             <div
               id="fullWidthTabContent"
-              
+              class="border-t border-gray-200 "
             >
               <div
-                class="p-4 bg-black rounded-lg md:p-8 dark:bg-black-800"
+                class="p-4 bg-gray-600 rounded-lg md:p-8 "
                 id="features"
                 role="tabpanel"
                 aria-labelledby="features-tab"
               >
-             
-            
+                <dl
+                  class="grid max-w-screen-xl grid-cols-2 gap-8 p-4 mx-auto text-white sm:grid-cols-3 xl:grid-cols-3  sm:p-8 justify-center  "
+                >
 
-<form class="max-w-sm ">
-  <div class="mb-5">
-    <label for="email" class="block mb-2 text-sm font-medium text-white">Your email</label>
-    <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@flowbite.com" required />
-  </div>
-  <div class="mb-5">
-    <label for="email" class="block mb-2 text-sm font-medium text-white">Your email</label>
-    <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@flowbite.com" required />
-  </div>
-  <div class="mb-5">
-    <label for="password" class="block mb-2 text-sm font-medium text-white">Your password</label>
-    <input type="password" id="password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
-  </div>
-  <div class="flex items-start mb-5">
-    <div class="flex items-center h-5">
-      <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required />
+                 
+
+<form class="max-w-md mx-auto">
+ 
+ 
+
+  <div class="grid md:grid-cols-2 md:gap-6">
+    <div class="relative z-0 w-full mb-5 group">
+      <label for="floating_first_name" class="block mb-2 text-sm font-medium text-white ">First name</label>
+        <input type="text" name="floating_first_name" id="floating_first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder=" " required />
+        
     </div>
-    <label for="remember" class="ms-2 text-sm font-medium text-white">Remember me</label>
+    <div class="relative z-0 w-full mb-5 group">
+      <label for="last_name" class="block mb-2 text-sm font-medium text-white ">Last name</label>
+        <input type="text" name="last_name" id="last_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder=" " required />
+        
+    </div>
+  </div>
+  <div class="grid md:grid-cols-2 md:gap-6">
+    <div class="relative z-0 w-full mb-5 group">
+      <label for="floating_phone" class="block mb-2 text-sm font-medium text-white">Phone number</label>
+
+        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="floating_phone" id="floating_phone" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder=" " required />
+    </div>
+    <div class="relative z-0 w-full mb-5 group">
+      <label for="floating_email" class="block mb-2 text-sm font-medium text-white ">Email address</label>
+      <input type="email" name="floating_email" id="floating_email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@flowbite.com " required />
+    </div>
+  </div>
+  <div class="relative z-0 w-full mb-5 group">
+    <label for="message" class="block mb-2 text-sm font-medium text-white">Your message</label>
+  <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Leave a comment..."></textarea>
   </div>
   <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
 </form>
 
-
+                
+                  
+                </dl>
               </div>
             </div>
           </div>
