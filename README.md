@@ -34,7 +34,6 @@ Visual Studio Code (VS Code) 💻: Code editor for development.
 
 
 
-:
 
 ## 🎉 So gear up, sync it up, and let the connections flow with Smart Sync! 🚀✨ Your contact management just got a serious upgrade—let’s make networking fun again! 🌟💌
 
